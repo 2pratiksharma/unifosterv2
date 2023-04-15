@@ -1,0 +1,133 @@
+.hero {
+    height: 100vh;
+    overflow: hidden;
+    
+    .slider {
+      height: 100%;
+      position: relative;
+  
+      .slide {
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.3s ease-in;
+  
+        img {
+          height: 100%;
+          width: 100%;
+          object-fit: cover;
+        }
+  
+        .slide-content {
+          position: absolute;
+          left: 10%;
+          top: 50%;
+          transform: translateY(-50%);
+          color: #fff;
+  
+          .slide-heading {
+            font-size: 3rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            opacity: 0;
+            animation: slide-heading 0.5s ease-in-out forwards;
+            max-width: 500px;
+          }
+  
+          .slide-title {
+            font-size: 2rem;
+            font-weight: 400;
+            opacity: 0;
+            animation: slide-title 0.5s ease-in-out forwards 0.2s;
+            max-width: 800px;
+          }
+        }
+      }
+  
+      @keyframes slide-heading {
+        from {
+          opacity: 0;
+          transform: translateX(-100%);
+        }
+        to {
+          opacity: 1;
+          transform: translateX(0%);
+        }
+      }
+  
+      @keyframes slide-title {
+        from {
+          opacity: 0;
+          transform: translateX(-100%);
+        }
+        to {
+          opacity: 1;
+          transform: translateX(0%);
+        }
+      }
+    }
+  
+    .controls {
+      position: absolute;
+      top: 50%;
+      right: 2rem;
+      transform: translateY(-50%);
+      display: flex;
+      align-items: center;
+      z-index: 1;
+  
+      .prev,
+      .next {
+        background-color: transparent;
+        border: none;
+        outline: none;
+        color: #fff;
+        font-size: 3rem;
+        cursor: pointer;
+        transition: transform 0.3s ease-in-out;
+  
+        &:hover {
+          transform: scale(1.2);
+        }
+      }
+  
+      .prev {
+       
+      }
+  
+      .dots {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-right: 2rem;
+  
+        .dot {
+         border: none;
+          height: 0.8rem;
+          width: 0.8rem;
+          border-radius: 50%;
+          margin-bottom: 1rem;
+          transition: all 0s ease-in-out;
+  
+          &:hover{
+            background-color: goldenrod;
+          }
+          &.active {
+            background-color: #7800ff;
+          }
+        }
+  
+        .active {
+          background-color: #fff;
+        }
+      }
+    }
+  }
+  
