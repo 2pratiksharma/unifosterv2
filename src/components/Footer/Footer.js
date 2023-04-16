@@ -8,7 +8,6 @@ import {
 } from "react-icons/ti";
 import "./footer.scss";
 import { HiOfficeBuilding } from "react-icons/hi";
-import logo from "../../assets/logo512.png";
 
 const Footer = () => {
   return (
@@ -65,7 +64,7 @@ const Footer = () => {
           </p>
         </div>
       </div>
-      <div>
+      <div className="footer-credits">
         <p>
           {" "}
           Unifoster © 2023 - All Rights Reserved || Designed & Developed by
