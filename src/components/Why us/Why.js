@@ -9,22 +9,30 @@ import { motion } from "framer-motion";
 
 const Why = () => {
   const points = [
-    { img: choice, heading: "Valuable student choice", text: "Text 1" },
+    {
+      img: choice,
+      heading: "Valuable student choice",
+      text: "To boost them and strengthen there individual learning needs.",
+    },
     {
       img: deal,
       heading: "Collaboratively with other team members.",
-      text: "Text 2",
+      text: "To provide best outcome for our clients.",
     },
-    { img: visa, heading: "Visa process training", text: "Text 3" },
+    {
+      img: visa,
+      heading: "Visa process training",
+      text: "To avail visa easily",
+    },
     {
       img: visa,
       heading: "Standard & quality of colleges/ universities",
-      text: "Text 3",
+      text: "For a successful career path.",
     },
     {
       img: visa,
       heading: "Attentive to details and well organized",
-      text: "Text 3",
+      text: "To provide error free results.",
     },
   ];
 
