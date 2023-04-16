@@ -30,7 +30,7 @@ const Why = () => {
 
   const ComponentPoints = () => {
     return (
-      <div className="container1">
+      <div className="banner">
         {points.map((point, i) => (
           <div key={i} className="point">
             <motion.div
