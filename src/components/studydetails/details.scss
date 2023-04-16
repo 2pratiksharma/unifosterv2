@@ -1,110 +1,143 @@
 .studycontainer {
-    margin: 50px 50px;
-    .studyIntrotitle{
-      margin-bottom: 40px;
-      border-bottom: 2px solid #7800ff;
-      //width: 60%;
-     h2{
-         font-size: 2.3rem;
-         margin-bottom: 15px;
-         b{
-          font-size: 2.5rem;
-          background-color: #7800ff;
-          border-radius: 20px;
-          padding: 5px;
-          color: white;
-         }
-     }
-     p{
-         font-size: 2rem;
-         
-         b{
-         
-        
-       
-         }
-     }
-    }
-   
-    .accord {
-      width: 50%;
-      height: 100%;
-      float: left;
-      
-     
-      
-      
-    }
-    
-    .chakra-accordion__item {
-      border: none;
-      border-radius: 10px;
-      margin-bottom: 10px;
-      background-color: #f4f4f4;
-    }
-    
-    .chakra-accordion__button {
-      background-color: #fafafa;
-      border: none;
-      border-radius: 10px;
-      padding: 10px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      width: 100%;
-      cursor: pointer;
-      font-size: 1.6rem;
-      color: black;
-    }
-    
-    .chakra-accordion__panel {
-      padding: 10px;
-  
-      border-radius: 10px;
-    }
-    
+
+  margin: 50px;
+  background-image: url("../../assets/ban.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   
     
-    .usapanel,.ukpanel,.eurpanel,.canpanel,.auspanel{
-    
-     
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
-      font-size: 1.4rem;
-      font-weight: 500;
-    text-shadow: 1px 1px 1px white;
-      
-      
-      
-    }
-    .studyimg{
-      width: 40%;
-      float: right;
-      img{
-     width: 100%;
-     border-radius: 20px;
-       
-      }
-    }
+  
+  .accord-container{
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  
   
   }
+  .studyIntrotitle{
+    margin-bottom: 40px;
+    border-bottom: 2px solid #7800ff;
+    //width: 60%;
 
+   h2{
+       font-size: 2.3rem;
+       margin-bottom: 15px;
+       b{
+        font-size: 2.5rem;
+        background-color: #7800ff;
+        border-radius: 20px;
+        padding: 5px;
+        color: white;
+       }
+   }
+   p{
+       font-size: 2rem;
+       
+       b{
+       
+      
+     
+       }
+   }
+  }
+ 
+  .accord {
+    width: 50%;
+    
+
+  }
+  
+  .chakra-accordion__item {
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: #f4f4f4;
+  }
+  
+  .chakra-accordion__button {
+  background-color: #cdc9c9;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    cursor: pointer;
+    font-size: 1.6rem;
+    color: black;
+  }
+  
+  .chakra-accordion__panel {
+    padding: 10px;
+
+    border-radius: 10px;
+  }
+  
+
+  
+  .usapanel,.ukpanel,.eurpanel,.canpanel,.auspanel{
+  
+   
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-size: 1.4rem;
+    font-weight: 500;
+  text-shadow: 1px 1px 1px white;
+
+    
+    
+  }
+  
   .auspanel{
-      background: url("../../assets/Ausflag.jpg");
+    background: url("../../assets/Ausflag.jpg");
+      background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+      
+  
   }
 
   .canpanel{
-      background: url("../../assets/canadaflag.jpg");
+    background: url("../../assets/canadaflag.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+      
   }
   .eurpanel{
-      background: url("../../assets/europeflag.jpg");
+    background: url("../../assets/europeflag.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+      
   }
   .usapanel{
-         background: url("../../assets/usaflag.jpg");
+    background: url("../../assets/usaflag.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+      
   }
   .ukpanel{
-        background: url("../../assets/ukflag.jpg");
+    background: url("../../assets/ukflag.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+      
   }
   
-  
+  .studyimg{
+    width: 47%;
+    img{
+   width: 100%;
+   border-radius: 20px;
+     
+    }
+ 
+  }
+
+}
