@@ -17,7 +17,7 @@ const Footer = () => {
         <div className="footer-column">
           <img src="logo.png" alt="Logo" className="footer-logo" />
           <p className="footer-text">
-            Unleash your dreams with us and start your process today with us.
+            `Unleash your dreams with us and start your process today with us.
           </p>
         </div>
         <div className="footer-column">
