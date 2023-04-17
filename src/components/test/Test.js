@@ -5,7 +5,7 @@ import { MdKeyboardArrowLeft, MdKeyboardArrowRight } from "react-icons/md";
 import { useSwipeable } from "react-swipeable";
 import "./test.scss";
 import img1 from "../../assets/bg1_hero.jpg";
-import img2 from "../../assets/bg2_hero.jpg";
+import img2 from "../../assets/bg2_hero.png";
 import img3 from "../../assets/bg3_hero.jpg";
 import img4 from "../../assets/bg4_hero.jpg";
 

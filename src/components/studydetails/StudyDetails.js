@@ -1,5 +1,6 @@
 import React from "react";
-import budget from "../../assets/budget.jpg";
+import img1 from "../../assets/whyimg.jpg";
+import img2 from "../../assets/whyimg2.jpg";
 import "./details.scss";
 import {
   Accordion,
@@ -85,7 +86,7 @@ const StudyDetails = () => {
             </Accordion>
           </div>
           <div className="studyimg">
-            <img src={budget} />
+            <img src={img1} />
           </div>
         </div>
       </div>

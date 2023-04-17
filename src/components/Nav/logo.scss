@@ -1,0 +1,25 @@
+.logo {
+    position: fixed;
+    top: 0;
+    left: 2%;
+    z-index: 50;
+    max-width: 250px;
+    max-height: 80px;
+    padding: 2px;
+    overflow: hidden;
+  }
+  
+  .logo__img {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.5s;
+  }
+  
+  .logo__img--zoom-in {
+    transform: scale(1);
+  }
+  
+  .logo__img--zoom-out {
+    transform: scale(1.2);
+  }
+  

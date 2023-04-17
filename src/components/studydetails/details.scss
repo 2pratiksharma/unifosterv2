@@ -1,6 +1,6 @@
 .studycontainer {
 
-  margin: 50px;
+  padding: 50px;
   background-image: url("../../assets/ban.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -140,4 +140,11 @@
  
   }
 
+}
+.studyimg2{
+ display: flex;
+ max-width: 100px;
+  .img{
+width: 500px;
+}
 }

@@ -15,3 +15,59 @@ export const StudyEurBenefits =
 
 export const QuoteTitle = "Discover Your Potential Overseas";
 export const QuoteText = ` "Studying abroad can be a transformative experience that helps you discover your potential and set yourself apart from the competition. Our counseling services provide students with the support and guidance they need to achieve their academic and personal goals."`;
+
+export const QuoteTitleNew = "The Power of Education Abroad";
+export const QuoteTextNew = ` "Studying abroad is a transformative experience that has the power to change lives. It offers students the opportunity to immerse themselves in a new culture, learn a new language, and gain a global perspective that is invaluable in today's interconnected world."`;
+export const ourServicesInfo = [
+  {
+    service: "Free Consultation",
+    text: `We are here to provide free consultation in line with your merit, academic performance, career
+      aspiration, interest, financial capacity etc.`,
+  },
+  {
+    service: "Admission",
+    text: "We help you in accomplishing admission in the selected college/university in selected country. ",
+  },
+  {
+    service: "Visa Application",
+    text: `Our experts work very cordially and sharply in making visa application and documentation according to
+    requirements of the specific consulate/embassy.`,
+  },
+  {
+    service: "Interview Preparation",
+    text: "Our trainers will guide you and prepare you for electronic as well as face to face interview if necessary.",
+  },
+  {
+    service: "Pre-Departure Briefing",
+    text: `We provide pre departure information and guide them how they can approach in a right way
+    commencing from the immigration officers.`,
+  },
+  {
+    service: "Post Arrival Services",
+    text: `Post arrival services include Accommodation/dormitory facilities according to the availability.
+    `,
+  },
+  {
+    service: "Travel and Medical Insurance",
+    text: `Some European countries require travel and medical insurance; in this case we guide students to find
+    proper insurance companies.`,
+  },
+  {
+    service: "Travel Arrangement",
+    text: `We provide travel arrangement service to the students who successfully have been granted visa. We can
+    find for you the lowest/cheapest ticket through our network. This service is for our own students only so
+    that they can travel spontaneously.`,
+  },
+  {
+    service: "CIMEA SERVICES",
+    text: `Upon candidates request CIMEA will issue the Statement of comparability and the Statement of verification referring to qualifications obtained abroad. CIMEA’s statements might be submitted to the international student’s admission unit at Università degli studi di in order to complete the enrollment process. . We provide you all the facilities according to your requirement.`,
+  },
+  {
+    service: "SOP Services",
+    text: `Our expert SOP consultants can piece together your experiences, aptitudes, motivations, goals and personal interests to make the perfect statement of purpose. Our best SOP writing services assure professionalism and quality, in all aspects. Secure your seat in your dream university.`,
+  },
+  {
+    service: "DOV/HRD SERVICES",
+    text: `HRD attestation for Italy is required mainly for educational documents. Individuals started seeking opportunities internationally to get better education and employment. Authentication of documents is required for international matters. HRD attestation for Italy is an important step attestation services especially in educational certificate attestation.`,
+  },
+];

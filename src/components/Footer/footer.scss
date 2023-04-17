@@ -1,9 +1,13 @@
 .main-footer-container{
-  background-color: #7800ff;
+  background-image: url("../../assets/footerbg.jpg");
   border-top-left-radius: 150px;
   border-top-right-radius: 150px;
-  color: white;
+  color: black;
   text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-weight: 400;
 }
 
 .footer-container {
@@ -13,7 +17,7 @@
   display: flex;
   justify-content: space-around;
   padding: 50px;
-  color: #fff;
+ 
   font-size: 18px;
   border-bottom: 2px solid white;
 
@@ -69,4 +73,6 @@
 .footer-credits {
   text-align: center;
  padding: 25px 0;
+ color: #fff;
+ font-weight: 400;
 }

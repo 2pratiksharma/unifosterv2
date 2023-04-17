@@ -1,0 +1,62 @@
+.wrapper {
+    height: 200vh;
+   padding: 0 10px;
+    font-size: 1.1rem;
+    @media (max-width:768px){
+      padding: 0 40px;
+      
+    }
+    .footer{
+      padding: 0 0px;
+      margin: 0 0;
+      width: 100%;
+      @media (max-width:768px) {
+        width: 95vw;
+      position: absolute;
+       left: 5px;
+       padding: 0 5px;
+        
+      }
+    }
+   
+
+  }
+  
+  .title {
+    text-align: center;
+    margin-bottom: 50px;
+    color: #7800ff;
+    text-decoration: underline;
+    font-size: 3rem;
+  }
+  .titletext{
+    font-size: 3rem;
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   
+   
+    justify-content: center;
+    align-items: center;
+   
+  }
+  
+  .box1,
+  .box2,
+  .box3,
+  .box4 {
+    flex-basis: calc(25% - 0px);
+    height: 70vh;
+    margin-bottom: 20px;
+    
+  }
+  .DOV{
+    margin-top: 50px;
+    width: 90%;
+  }
+ 
+  
+  

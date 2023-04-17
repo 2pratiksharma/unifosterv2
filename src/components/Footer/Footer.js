@@ -8,13 +8,14 @@ import {
 } from "react-icons/ti";
 import "./footer.scss";
 import { HiOfficeBuilding } from "react-icons/hi";
+import mainLogo from "../../assets/unifosterLogo.png";
 
 const Footer = () => {
   return (
     <div className="main-footer-container">
       <div className="footer-container">
         <div className="footer-column">
-          <img src="logo.png" alt="Logo" className="footer-logo" />
+          <img src={mainLogo} alt="Logo" className="footer-logo" />
           <p className="footer-text">
             `Unleash your dreams with us and start your process today with us.
           </p>
@@ -67,7 +68,7 @@ const Footer = () => {
       <div className="footer-credits">
         <p>
           {" "}
-          Unifoster © 2023 - All Rights Reserved || Designed & Developed by
+          Unifoster © 2023 - All Rights Reserved | Designed & Developed by
           Pratik sharma
         </p>
       </div>
