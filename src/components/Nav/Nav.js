@@ -67,7 +67,7 @@ const NavBar = () => {
                   <i>
                     <MdOutlineMedicalInformation />
                   </i>{" "}
-                  About Us
+                  <NavLink to="/About">About Us</NavLink>
                 </li>
                 <li>
                   {" "}

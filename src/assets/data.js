@@ -44,7 +44,7 @@ export const ourServicesInfo = [
   },
   {
     service: "Post Arrival Services",
-    text: `Post arrival services include Accommodation/dormitory facilities according to the availability.
+    text: `Post arrival services include Accommodation or dormitory facilities according to the availability.
     `,
   },
   {
