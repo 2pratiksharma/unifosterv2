@@ -10,6 +10,7 @@ import Footer from "../../components/Footer/Footer";
 import NavBar from "../../components/Nav/Nav";
 import Logoanim from "../../components/Nav/Logoanim";
 import Quotenew from "../../components/qoute/Quotenew";
+import WelcomePop from "../../components/popups/WelcomePop";
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
       <NavBar />
       <Logoanim />
       <Test />
+      <WelcomePop />
       <Disc />
       <Why />
       <Quote />

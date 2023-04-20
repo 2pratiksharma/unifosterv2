@@ -8,6 +8,7 @@ import UK from "./components/UK/UK";
 import AUS from "./components/Australia/AUS";
 import EUR from "./components/Europe/EUR";
 import CAN from "./components/Canada/CAN";
+import WhatsApp from "./components/popups/WhatsApp";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
           <Route path="/Canada" element={<CAN />} />
         </Routes>
       </BrowserRouter>
+      <WhatsApp />
     </div>
   );
 }

@@ -8,3 +8,20 @@
 
 
 }
+
+::-webkit-scrollbar{
+  width: .7em;
+  height: 1em;
+  
+}
+::-webkit-scrollbar-track {
+  background:rgba(156,98,222,.6);
+ 
+ border-radius: 100px;
+
+}
+::-webkit-scrollbar-thumb{
+  border-radius: 100vh;
+  background: #7800ff;
+
+}
