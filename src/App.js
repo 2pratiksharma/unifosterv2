@@ -9,6 +9,7 @@ import AUS from "./components/Australia/AUS";
 import EUR from "./components/Europe/EUR";
 import CAN from "./components/Canada/CAN";
 import WhatsApp from "./components/popups/WhatsApp";
+import RegisterYourself from "./components/form/RegisterYourself";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path="/Australia" element={<AUS />} />
           <Route path="/Europe" element={<EUR />} />
           <Route path="/Canada" element={<CAN />} />
+          <Route path="/ApplyNow" element={<RegisterYourself />} />
         </Routes>
       </BrowserRouter>
       <WhatsApp />

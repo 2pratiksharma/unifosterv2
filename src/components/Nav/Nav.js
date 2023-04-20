@@ -109,7 +109,9 @@ const NavBar = () => {
                 </li>
                 <li>
                   {" "}
-                  <Button href="#">Register Yourself</Button>
+                  <Button href="#">
+                    <NavLink to="ApplyNow"> Register Yourself</NavLink>
+                  </Button>
                 </li>
               </ul>
             </nav>
