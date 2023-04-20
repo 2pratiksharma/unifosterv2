@@ -1,5 +1,5 @@
 import React from "react";
-import Hero from "../../components/hero/Hero";
+
 import Disc from "../../components/serviceDescription/Disc";
 import Why from "../../components/Why us/Why";
 

@@ -34,7 +34,7 @@ const RegisterYourself = () => {
   const handleSubmit = (event) => {
     event.preventDefault();
     axios
-      .post("/api", formData)
+      .post("http://localhost:5000/api", formData)
       .then((response) => {
         console.log(response.data);
         setIsFormSubmitted(true);
