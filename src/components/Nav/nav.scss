@@ -6,7 +6,7 @@
   background-color: rgba (250,250,250,0.9);
   
 
-  font-size: 3rem;
+  font-size: 2rem;
   z-index: 99999999999;
 }
 
@@ -33,7 +33,7 @@
   .social-media{
     align-items: center;
     text-align: center;
-    margin-top: 40px;
+    margin-top: 20px;
     a{
     
 
@@ -41,7 +41,7 @@
      
       margin-right: 15px;
       i{
-        font-size: 2rem;
+        font-size: 1.6rem;
        color: #7800ff;
         padding: 1.20%;
     
@@ -50,13 +50,14 @@
     }
   }
   .contact-info-nav{
+    margin-left: 60px;
     h1{
-      margin: 20px 0px;
-      font-size: 1.8rem;
+      margin: 10px 0px;
+      font-size: 1.6rem;
 
     }
     p{
-      font-size: 1.3rem;
+      font-size: 1.2rem;
     }
   }
 

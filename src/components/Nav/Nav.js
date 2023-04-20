@@ -15,8 +15,7 @@ import { GrContactInfo, GrBusinessService } from "react-icons/gr";
 import { MdOutlineMedicalInformation } from "react-icons/md";
 import { BiMenuAltRight } from "react-icons/bi";
 import "./nav.scss";
-import bg from "../../assets/navbg.jpg";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const NavBar = () => {
   const [show, setShow] = useState(false);
@@ -35,18 +34,22 @@ const NavBar = () => {
   return (
     <div className="main-nav-wrap">
       <Button variant="none" className="offcanvas-btn" onClick={handleShow}>
-        {isHamburger ? <BiMenuAltRight /> : <FaTimes />}{" "}
-        {/* show hamburger or cross icon based on state */}
+        <BiMenuAltRight />
       </Button>
 
       <Offcanvas className="canvasBG" show={show} onHide={handleClose}>
         <Offcanvas.Header closeButton>
           <Offcanvas.Title>
-            <img
-              src={Logo}
-              style={{ width: "300px", borderBottom: "2px solid #7800ff" }}
-              alt="Logo"
-            />
+            <NavLink to="/">
+              <img
+                src={Logo}
+                style={{
+                  width: "300px",
+                  borderBottom: "2px solid #7800ff",
+                }}
+                alt="Logo"
+              />
+            </NavLink>
             <p className="nav-text">
               Guiding you towards global opportunities for a brighter future.
             </p>
@@ -87,20 +90,26 @@ const NavBar = () => {
                     id="dropdown-basic-button"
                     title="Plan Your Studies"
                   >
-                    <Dropdown.Item href="#/action-1">
-                      Study In USA
+                    <Dropdown.Item>
+                      <NavLink to="/USA">Study In USA</NavLink>
                     </Dropdown.Item>
-                    <Dropdown.Item href="#/action-2">Study In UK</Dropdown.Item>
-                    <Dropdown.Item href="#/action-3">
-                      Study In Canada
+                    <Dropdown.Item>
+                      <NavLink to="/UK">Study In UK</NavLink>
                     </Dropdown.Item>
-                    <Dropdown.Item href="#/action-3">
-                      Study In Europe
+                    <Dropdown.Item>
+                      <NavLink to="/Canada">Study In Canada</NavLink>
                     </Dropdown.Item>
-                    <Dropdown.Item href="#/action-3">
-                      Study In Australia
+                    <Dropdown.Item>
+                      <NavLink to="/Europe">Study In Europe</NavLink>
+                    </Dropdown.Item>
+                    <Dropdown.Item>
+                      <NavLink to="/Australia"> Study In Australia</NavLink>
                     </Dropdown.Item>
                   </DropdownButton>
+                </li>
+                <li>
+                  {" "}
+                  <Button href="#">Register Yourself</Button>
                 </li>
               </ul>
             </nav>

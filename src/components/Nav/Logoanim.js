@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import mainLogo from "../../assets/unifosterLogo.png";
 import secondaryLogo from "../../assets/logo512.png";
 import "./logo.scss";
+import { NavLink } from "react-router-dom";
 
 const Logoanim = () => {
   const [showNewLogo, setShowNewLogo] = useState(false);
@@ -22,13 +23,15 @@ const Logoanim = () => {
 
   return (
     <div className="logo">
-      <img
-        className={`logo__img ${
-          showLogo2 ? "logo__img--zoom-out" : "logo__img--zoom-in"
-        }`}
-        src={showLogo2 ? secondaryLogo : mainLogo}
-        alt="Logo"
-      />
+      <NavLink to="/">
+        <img
+          className={`logo__img ${
+            showLogo2 ? "logo__img--zoom-out" : "logo__img--zoom-in"
+          }`}
+          src={showLogo2 ? secondaryLogo : mainLogo}
+          alt="Logo"
+        />
+      </NavLink>
     </div>
   );
 };

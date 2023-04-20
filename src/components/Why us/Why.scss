@@ -2,7 +2,7 @@
     margin: 0 50px;
     display: flex;
     justify-content: space-between;
-    height: 70vh;
+    height: 80vh;
    
     margin-top: 10px;
   }
@@ -90,6 +90,7 @@
     color: #000;
     background-color: white;
     border-radius: 100px;
+    object-fit: cover;
     img{
         width: 150px;
         box-shadow:  10px 10px 25px #ddd;

@@ -1,0 +1,178 @@
+.AUSBG-container{
+    height: 70vh;
+    width: 100%;
+    object-fit: cover;
+    img{
+height: 100%;
+width: 100%;
+border-bottom-left-radius: 100px;
+border-bottom-right-radius: 100px;
+    }
+    .AUSBG-text{
+        position: absolute;
+        top: 50%;
+        left: 75%;
+        color: white;
+        h1{
+            font-size: 3.5rem;
+        }
+    }
+}
+
+//block 1 title
+.AUS-main-container{
+    background-image: url("../../assets/Whobg.jpg");
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0%;
+    .AUS-title1{
+        
+        width: auto;
+        h2{
+            padding-top: 50px;
+      font-size: 3rem;
+                 margin-bottom: 30px;
+                 b{
+                    border-bottom: solid 3px #7800ff;
+                 }
+    }
+
+    }
+    .AUS-text1{
+        margin: 0 auto;
+    
+        width: 70%;
+        
+    p{
+
+        font-size: 1.4rem;
+         color: #0D2F3F;
+         
+
+  }
+}
+}
+
+//block 2 
+.AUS-block2{
+    display: flex;
+    width: 100;
+    margin: 0 auto;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 0 150px;
+    .AUS-block2-colum1{
+        width: 100%;
+        max-width: 650px;
+        margin: 20px 0;
+        h1{
+            font-size: 1.5rem;
+        
+            text-decoration: underline;
+            text-decoration-color: #7800ff;
+            text-align: center;
+            align-items: center;
+            
+        
+        }
+        p{
+            width: 550px;
+        }
+        
+    }
+    .AUS-block2-column2{
+        margin: 20px 0;
+        width: 100%;
+        max-width: 650px;
+        h1{
+            font-size: 1.5rem;
+            
+            text-decoration: underline;
+            text-decoration-color: #7800ff;
+        }
+        p{
+            width: 550px; 
+        }
+    }
+
+}
+
+//block3
+
+.AUS-block3{
+    display: flex;
+    padding: 0 30px;
+    width: 100%;
+    height: 100%;
+    .AUS-block3-title{
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: left;
+        align-items: flex-start;
+        h1{
+          margin-bottom: 20px;
+          border-bottom: 4px solid #7800ff;
+       
+        }
+        p{
+          font-size: 1.2rem;
+        }
+    }
+    .AUS-block3-img{
+        
+        margin-left: 20px;
+        width: 55%;
+      object-fit: cover;
+     
+      img{
+        
+        width: 100%;
+        height: 100%;
+        border-radius: 50px;
+      }
+    }
+}
+
+//block 4
+.AUS-block4{
+    display: flex;
+    padding: 0 30px;
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+    
+    border-bottom: #7800ff solid 2px;
+    .AUS-block4-img{
+        width: 50%;
+        object-fit: contain;
+        margin-top: 35px;
+        margin-bottom: 60px;
+        img{
+            width: 100%;
+            height:100%;
+            border-radius: 50px;
+        }
+    }
+    .AUS-block4-title{
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: left;
+        align-items: flex-start;
+        margin-left: 20px;
+        h1{
+          margin-bottom: 20px;
+          border-bottom: 4px solid #7800ff;
+       
+        }
+        p{
+          font-size: 1.2rem;
+        }
+    }
+   
+}

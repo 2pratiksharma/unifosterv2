@@ -46,9 +46,10 @@ const Footer = () => {
         </div>
         <div className="footer-column">
           <h3 className="footer-heading">
-            <TiSocialFacebookCircular className="footer-icon" /> Get in Touch
+            <TiSocialFacebookCircular className="footer-icon arrange" /> Get in
+            Touch
           </h3>
-          <p className="footer-text">
+          <p className="footer-text1">
             <TiSocialFacebookCircular className="footer-sub-icon" /> Facebook
             <br />
             <TiSocialTwitterCircular className="footer-sub-icon" /> Twitter
@@ -58,7 +59,7 @@ const Footer = () => {
             <TiSocialInstagramCircular className="footer-sub-icon" /> Instagram
             <br />
           </p>
-          <p className="footer-text">
+          <p className="footer-text1">
             <FaEnvelope className="footer-sub-icon" /> info@unifoster.com
             <br />
             <FaEnvelope className="footer-sub-icon" /> faatin@unifoster.com

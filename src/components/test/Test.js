@@ -26,14 +26,16 @@ const slidesData = [
   {
     id: 3,
     imageSrc: img3,
-    heading: "Slide 3 Heading",
-    title: "Slide 3 Title",
+    heading: "Achieve Your Dreams",
+    title:
+      "Realize your full potential and achieve your academic and professional goals with our support.",
   },
   {
     id: 4,
     imageSrc: img4,
-    heading: "Slide 4 Heading",
-    title: "Slide 4 Title",
+    heading: "Transform Your Future",
+    title:
+      "Broaden your horizons, gain valuable experience, and enhance your career prospects.",
   },
 ];
 

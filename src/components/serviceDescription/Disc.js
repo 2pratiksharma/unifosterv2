@@ -7,6 +7,7 @@ import img2 from "../../assets/hostel.jpg";
 import img3 from "../../assets/visa.jpg";
 import img4 from "../../assets/interview.jpg";
 import { TbHandClick } from "react-icons/tb";
+import { NavLink } from "react-router-dom";
 
 const Card = () => {
   const [isFlipped, setIsFlipped] = useState(false);
@@ -26,7 +27,9 @@ const Card = () => {
         <h3>That's not all!</h3>
       </div>
       <div className="Card__face Card__face--back">
-        <button>Explore More</button>
+        <button>
+          <NavLink to="/services">Explore More </NavLink>
+        </button>
       </div>
     </div>
   );

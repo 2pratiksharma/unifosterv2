@@ -5,6 +5,8 @@ import choice from "../../assets/choice.png";
 
 import visa from "../../assets/visa.png";
 import deal from "../../assets/deal.png";
+import graduate from "../../assets/graduate.png";
+import employee from "../../assets/employee.png";
 import { motion } from "framer-motion";
 
 const Why = () => {
@@ -25,12 +27,12 @@ const Why = () => {
       text: "To avail visa easily",
     },
     {
-      img: visa,
+      img: graduate,
       heading: "Standard & quality of colleges/ universities",
       text: "For a successful career path.",
     },
     {
-      img: visa,
+      img: employee,
       heading: "Attentive to details and well organized",
       text: "To provide error free results.",
     },
