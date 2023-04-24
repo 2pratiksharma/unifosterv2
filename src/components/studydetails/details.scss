@@ -5,6 +5,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  width: 100%;
   
     
   
@@ -42,9 +43,21 @@
        }
    }
   }
+  .accord-container{
+    @media (max-width:768px) {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      
+    }
+  }
  
   .accord {
     width: 50%;
+    @media (max-width:768px) {
+      width: 100%;
+      
+    }
     
 
   }
@@ -87,6 +100,11 @@
     font-size: 1.4rem;
     font-weight: 500;
   text-shadow: 1px 1px 1px white;
+  @media (max-width:768px) {
+    width: 100%;
+    
+  }
+
 
     
     
@@ -132,6 +150,10 @@
   
   .studyimg{
     width: 47%;
+    @media (max-width:768px) {
+      width: 100%;
+      
+    }
     img{
    width: 100%;
    border-radius: 20px;

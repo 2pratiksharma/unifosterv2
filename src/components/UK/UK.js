@@ -4,14 +4,14 @@ import UKImg from "../../assets/wallUK.jpg";
 import img from "../../assets/imgUK.jpg";
 import img2 from "../../assets/imgUK2.jpg";
 import NavBar from "../Nav/Nav";
-import Logoanim from "../Nav/Logoanim";
+import ScrollBtn from "../button/ScrollBtn";
 import Footer from "../Footer/Footer";
 
 const UK = () => {
   return (
     <>
       <NavBar />
-      <Logoanim />
+      <ScrollBtn />
       <div className="UKBG-container">
         <img src={UKImg} />
         <div className="UKBG-text">

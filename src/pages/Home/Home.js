@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 import Disc from "../../components/serviceDescription/Disc";
 import Why from "../../components/Why us/Why";
@@ -11,12 +11,16 @@ import NavBar from "../../components/Nav/Nav";
 import Logoanim from "../../components/Nav/Logoanim";
 import Quotenew from "../../components/qoute/Quotenew";
 import WelcomePop from "../../components/popups/WelcomePop";
+import ScrollBtn from "../../components/button/ScrollBtn";
 
 const Home = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div>
       <NavBar />
-      <Logoanim />
+
       <Test />
       <WelcomePop />
       <Disc />
@@ -25,6 +29,7 @@ const Home = () => {
       <StudyDetails />
       <Quotenew />
       <Footer />
+      <ScrollBtn />
     </div>
   );
 };

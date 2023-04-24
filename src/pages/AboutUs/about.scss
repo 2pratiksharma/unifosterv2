@@ -11,18 +11,27 @@
     margin: 0 auto;
     
          width: 70%;
+         @media (max-width:768px) {
+          width: 100%;
+          padding: 0 20px;
+       }
       h1{
         padding-top: 50px;
-  font-size: 3rem;
-             margin-bottom: 30px;
-             b{
-                 border-bottom: 3px solid #7800ff;
-             }
-     }
+        font-size: 3rem;
+        margin-bottom: 30px;
+        @media (max-width:768px) {
+           font-size: 2rem;
+        }
+         b{
+            border-bottom: 3px solid #7800ff;
+           }
+        }
      p{
-
-           font-size: 1.5rem;
-            color: #0D2F3F;
+       font-size: 1.5rem;
+       color: #0D2F3F;
+       @media (max-width:768px) {
+        font-size: 1.4rem;
+     }
             
  
      }
@@ -36,11 +45,18 @@
     display: flex;
     margin-top: 5rem;
     justify-content: space-between;
+    @media (max-width:768px) {
+      display: flex;
+      flex-direction: column;
+   }
  
 
      
 .Aboutpoint {
     margin: 0 auto;
+    @media (max-width:768px) {
+      
+   }
   
    
     
@@ -60,6 +76,10 @@
   .Abouttext {
     width: 250px;
     font-size: 1.1rem;
+    @media (max-width:768px) {
+            margin-bottom: 3rem;    
+    }
+   
    
   }
   

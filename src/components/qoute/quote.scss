@@ -4,6 +4,12 @@
     .quoteTitle{
         margin: 0 auto;
         width: 70%;
+
+        @media (max-width:768px) {
+            width: 100%;
+            
+        }
+
         h4{
             font-size: 3rem;
             margin-bottom: 10px;

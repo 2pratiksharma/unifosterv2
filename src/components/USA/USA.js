@@ -4,14 +4,15 @@ import usaImg from "../../assets/wallUSA.jpg";
 import img from "../../assets/USAimg.jpg";
 import img2 from "../../assets/usaimg2.jpg";
 import NavBar from "../Nav/Nav";
-import Logoanim from "../Nav/Logoanim";
+import ScrollBtn from "../button/ScrollBtn";
 import Footer from "../Footer/Footer";
 
 const USA = () => {
   return (
     <>
       <NavBar />
-      <Logoanim />
+      <ScrollBtn />
+
       <div className="usaBG-container">
         <img src={usaImg} />
         <div className="usaBG-text">
@@ -23,7 +24,7 @@ const USA = () => {
       <div className="USA-main-container">
         <div className="USA-title1">
           <h2>
-            STUDY IN <b>USA</b>{" "}
+            Study In <b>USA</b>{" "}
           </h2>
         </div>
         <div className="USA-text1">

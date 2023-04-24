@@ -5,6 +5,10 @@
     height: 80vh;
    
     margin-top: 10px;
+       @media (max-width:768px) {
+        display: block;
+        
+       }
   }
   
   .why-left {
@@ -48,24 +52,24 @@
     width: 357.99px ;
     font-size: 1.4rem;
     margin-bottom: 3px;
+    text-align: left;
    }
     p{
         width: 357.99px ;
         font-size: 1.2rem;
     }
   }
-  .banner{
-    
+ 
   
 
-  }
+  
   
   .why-img {
     margin-top: 10%;
     width: 357.99px;
     height: 224px;
     object-fit: cover;
-    margin-bottom: .9rem;
+
     border-radius: 20px;
   }
   
@@ -114,4 +118,12 @@
   .banner{
     background-color: #fafafa;
     margin-top: 10px;
-  }
+     @media (max-width:768px) {
+      display: block;
+      height: 100vh;
+    margin-top: 35rem;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40rem;
+
+    }}

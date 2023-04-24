@@ -4,14 +4,14 @@ import EURImg from "../../assets/wallEUR.jpg";
 import img from "../../assets/imgEur.jpg";
 import img2 from "../../assets/imgEur2.jpg";
 import NavBar from "../Nav/Nav";
-import Logoanim from "../Nav/Logoanim";
+import ScrollBtn from "../button/ScrollBtn";
 import Footer from "../Footer/Footer";
 
 const EUR = () => {
   return (
     <>
       <NavBar />
-      <Logoanim />
+      <ScrollBtn />
       <div className="EURBG-container">
         <img src={EURImg} />
         <div className="EURBG-text">

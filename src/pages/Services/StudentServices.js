@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import css from "./services.module.scss";
 import { ourServicesInfo } from "../../assets/data";
 import free from "./../../assets/free.png";
@@ -14,13 +14,17 @@ import infoimg2 from "../.././assets/infoservbg.jpg";
 import infoimg from "../../assets/moreinfo.jpg";
 import Footer from "../../components/Footer/Footer";
 import NavBar from "../../components/Nav/Nav";
-import Logoanim from "../../components/Nav/Logoanim";
+
+import ScrollBtn from "../../components/button/ScrollBtn";
 
 const StudentServices = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <NavBar />
-      <Logoanim />
+      <ScrollBtn />
 
       <div className={css.titleImgContainer}>
         <img src={infoimg2} />

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import AboutBG from "./AboutBG";
 import "./about.scss";
 import NavBar from "../../components/Nav/Nav";
@@ -9,6 +9,7 @@ import misson from "../../assets/misson.png";
 import value from "../../assets/value.png";
 import vision from "../../assets/target.png";
 import { motion } from "framer-motion";
+import ScrollBtn from "../../components/button/ScrollBtn";
 
 const BannerItem = [
   {
@@ -29,6 +30,9 @@ const BannerItem = [
 ];
 
 const ComponentInfo = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="Aboutbanner">
       {BannerItem.map((point, i) => (
@@ -48,7 +52,7 @@ const AboutUs = () => {
   return (
     <>
       <NavBar />
-      <Logoanim />
+      <ScrollBtn />
       <AboutBG />
 
       {/** Hero for About */}

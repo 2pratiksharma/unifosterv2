@@ -1,7 +1,6 @@
 .hero {
-    height: 100vh;
+    height: 78vh;
     overflow: hidden;
-    width: 100vw;
     
     .slider {
       height: 100%;
@@ -30,16 +29,19 @@
           top: 50%;
           transform: translateY(-50%);
           color: #fff;
+          width: 100%;
+          text-align: left;
   
           .slide-heading {
-            font-size: 3rem;
+            font-size: 2.5rem;
             font-weight: 700;
             margin-bottom: 1rem;
             text-transform: uppercase;
             letter-spacing: 0.1em;
             opacity: 0;
             animation: slide-heading 0.5s ease-in-out forwards;
-            max-width: 500px;
+            max-width: 600px;
+            text-align: left;
           }
   
           .slide-title {
@@ -107,7 +109,7 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-      
+        margin-right: 2rem;
   
         .dot {
          border: none;

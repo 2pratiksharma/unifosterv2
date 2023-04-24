@@ -4,17 +4,17 @@ import CANImg from "../../assets/wallCAN.jpg";
 import img from "../../assets/imgCan.jpg";
 import img2 from "../../assets/imgCan2.jpg";
 import NavBar from "../Nav/Nav";
-import Logoanim from "../Nav/Logoanim";
+import ScrollBtn from "../button/ScrollBtn";
 import Footer from "../Footer/Footer";
 
 const CAN = () => {
   return (
     <>
       <NavBar />
-      <Logoanim />
-      <div className="AUSBG-container">
+      <ScrollBtn />
+      <div className="CANBG-container">
         <img src={CANImg} />
-        <div className="AUSBG-text">
+        <div className="CANBG-text">
           <h1>Study In Canada</h1>
         </div>
       </div>
@@ -23,7 +23,7 @@ const CAN = () => {
       <div className="CAN-main-container">
         <div className="CAN-title1">
           <h2>
-            STUDY IN <b>Canada</b>{" "}
+            Study In <b>Canada</b>{" "}
           </h2>
         </div>
         <div className="CAN-text1">

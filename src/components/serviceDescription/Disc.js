@@ -42,7 +42,7 @@ const Disc = () => {
       <div className="row">
         <div className="column">
           <div className="box">
-            <div>
+            <div className="inside-box">
               <h1>Free Counseling</h1>
               <p>
                 We are here to provide free consultation in line with your
@@ -57,7 +57,7 @@ const Disc = () => {
         </div>
         <div className="column">
           <div className="box">
-            <div>
+            <div className="inside-box">
               <h1>Post Arrival Services</h1>
               <p>
                 Post arrival services include Accommodation/dormitory facilities
@@ -73,7 +73,7 @@ const Disc = () => {
       <div className="row">
         <div className="column">
           <div className="box">
-            <div>
+            <div className="inside-box">
               <h1>Visa Application</h1>
               <p>
                 Our experts work very cordially and sharply in making visa
@@ -88,7 +88,7 @@ const Disc = () => {
         </div>
         <div className="column">
           <div className="box">
-            <div>
+            <div className="inside-box">
               <h1>Interview Preparation</h1>
               <p>
                 Our trainers will guide you and prepare you for electronic as

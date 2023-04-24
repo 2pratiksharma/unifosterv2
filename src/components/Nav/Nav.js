@@ -1,205 +1,147 @@
-import React, { useState } from "react";
-import { FaTimes } from "react-icons/fa"; // import hamburger and cross icons
+import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Button from "react-bootstrap/Button";
-import Dropdown from "react-bootstrap/Dropdown";
-import DropdownButton from "react-bootstrap/DropdownButton";
-import Offcanvas from "react-bootstrap/Offcanvas";
-import Logo from "../../assets/unifosterLogo.png";
-import { FaSnapchatGhost, FaPhoneAlt } from "react-icons/fa";
-
-import { AiFillInstagram, AiOutlineWhatsApp } from "react-icons/ai";
-import { BsLinkedin, BsTwitter, BsGlobeAmericas } from "react-icons/bs";
-import { BiHomeCircle } from "react-icons/bi";
-import { GrContactInfo, GrBusinessService } from "react-icons/gr";
-import { MdOutlineMedicalInformation } from "react-icons/md";
-import { BiMenuAltRight } from "react-icons/bi";
 import "./nav.scss";
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
+import Container from "react-bootstrap/Container";
+
+import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
+import NavDropdown from "react-bootstrap/NavDropdown";
+import Logo from "../../assets/unifosterLogo.png";
+import { motion } from "framer-motion";
+
+//icons
+import { FaSnapchatGhost } from "react-icons/fa";
+import { AiFillInstagram } from "react-icons/ai";
+import { BsLinkedin, BsTwitter } from "react-icons/bs";
 
 const NavBar = () => {
-  const [show, setShow] = useState(false);
-  const [isHamburger, setIsHamburger] = useState(true); // track whether to show hamburger or cross icon
-
-  const handleClose = () => {
-    setShow(false);
-    setIsHamburger(true); // reset to hamburger icon when offcanvas closes
-  };
-
-  const handleShow = () => {
-    setShow(true);
-    setIsHamburger(false); // switch to cross icon when offcanvas opens
-  };
-
   return (
-    <div className="main-nav-wrap">
-      <Button variant="none" className="offcanvas-btn" onClick={handleShow}>
-        <BiMenuAltRight />
-      </Button>
+    <>
+      <div className="contact-info-container">
+        {/* left column */}
+        <div className="social-icons-container">
+          <a
+            href="https://www.snapchat.com/add/unifoster_01?share_id=zF957NMp6mg&locale=en-GB"
+            target="_blank"
+          >
+            <i className="fab fa-facebook">
+              <FaSnapchatGhost />
+            </i>
+          </a>
+          <a
+            href="https://instagram.com/unifoster_?igshid=YmMyMTA2M2Y="
+            target="_blank"
+          >
+            <i className="fab fa-twitter">
+              <AiFillInstagram />
+            </i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/unifoster-448bb326b"
+            target="_blank"
+          >
+            <i className="fab fa-instagram">
+              <BsLinkedin />
+            </i>
+          </a>
+          <a
+            href="https://twitter.com/Unifoster_?t=tLpZecq-V20QjmBWRuN9vg&s=09"
+            target="_blank"
+          >
+            <i className="fab fa-linkedin">
+              <BsTwitter />
+            </i>
+          </a>
+        </div>
+        {/* right column */}
+        <div className="contact-numbers-container">
+          <div className="contact-number">
+            <p className="number">+91 9866553616</p>
+            <p className="location">India</p>
+          </div>
+          <div className="contact-number">
+            <p className="number">+966 564499994</p>
+            <p className="location">Saudi</p>
+          </div>
+          <div className="contact-number">
+            <p className="number">+966 569500015</p>
+            <p className="location">Saudi</p>
+          </div>
+        </div>
+      </div>
 
-      <Offcanvas className="canvasBG" show={show} onHide={handleClose}>
-        <Offcanvas.Header closeButton>
-          <Offcanvas.Title>
-            <NavLink to="/">
-              <img
-                src={Logo}
+      <div className="nav-main-container">
+        <Navbar bg="light" expand="lg">
+          <Container fluid>
+            <Navbar.Brand>
+              <NavLink to="/">
+                {" "}
+                <img src={Logo} style={{ maxWidth: "240px" }} />
+              </NavLink>
+            </Navbar.Brand>
+            <Navbar.Toggle aria-controls="navbarScroll" />
+
+            <Navbar.Collapse id="navbarScroll">
+              <Nav
+                className="ms-auto my-2 my-lg-0"
                 style={{
-                  width: "300px",
-                  borderBottom: "2px solid #7800ff",
+                  maxHeight: "500px",
+                  fontSize: "1.5rem",
                 }}
-                alt="Logo"
-              />
-            </NavLink>
-            <p className="nav-text">
-              Guiding you towards global opportunities for a brighter future.
-            </p>
-          </Offcanvas.Title>
-        </Offcanvas.Header>
-        <Offcanvas.Body>
-          <div className="navigation-links">
-            <nav>
-              <ul>
-                <li>
-                  <i>
-                    <BiHomeCircle />
-                  </i>
-                  <NavLink to="/">Home</NavLink>
-                </li>
-                <li>
-                  {" "}
-                  <i>
-                    <MdOutlineMedicalInformation />
-                  </i>{" "}
-                  <NavLink to="/About">About Us</NavLink>
-                </li>
-                <li>
-                  {" "}
-                  <i>
-                    <GrBusinessService />
-                  </i>
-                  <NavLink to="/services">Services</NavLink>
-                </li>
-                <li>
-                  <i>
-                    <BsGlobeAmericas />
-                  </i>
-                  <NavLink to="/students"> International Students</NavLink>
-                </li>
-                <li className="planstudy-nav">
-                  <DropdownButton
-                    id="dropdown-basic-button"
-                    title="Plan Your Studies"
-                  >
-                    <Dropdown.Item>
-                      <NavLink to="/USA">Study In USA</NavLink>
-                    </Dropdown.Item>
-                    <Dropdown.Item>
-                      <NavLink to="/UK">Study In UK</NavLink>
-                    </Dropdown.Item>
-                    <Dropdown.Item>
-                      <NavLink to="/Canada">Study In Canada</NavLink>
-                    </Dropdown.Item>
-                    <Dropdown.Item>
-                      <NavLink to="/Europe">Study In Europe</NavLink>
-                    </Dropdown.Item>
-                    <Dropdown.Item>
-                      <NavLink to="/Australia"> Study In Australia</NavLink>
-                    </Dropdown.Item>
-                  </DropdownButton>
-                </li>
-                <li>
-                  {" "}
-                  <Button href="#">
-                    <NavLink to="ApplyNow"> Register Yourself</NavLink>
-                  </Button>
-                </li>
-              </ul>
-            </nav>
-          </div>
-          <div>
-            <div className="social-media">
-              <a
-                href="https://instagram.com/unifoster_?igshid=YmMyMTA2M2Y="
-                target="_blank"
-                className="icon-circle"
+                navbarScroll
               >
-                <i className="icon">
-                  <AiFillInstagram />
-                </i>
-              </a>
-              <a
-                href="https://www.snapchat.com/add/unifoster_01?share_id=zF957NMp6mg&locale=en-GB"
-                target="_blank"
-                className="icon-circle"
-              >
-                <i className="icon">
-                  {" "}
-                  <FaSnapchatGhost />
-                </i>
-              </a>
-              <a
-                href="https://www.linkedin.com/in/unifoster-448bb326b"
-                target="_blank"
-                className="icon-circle"
-              >
-                <i className="icon">
-                  <BsLinkedin />
-                </i>
-              </a>
-              <a
-                href="https://twitter.com/Unifoster_?t=tLpZecq-V20QjmBWRuN9vg&s=09"
-                target="_blank"
-                className="icon-circle"
-              >
-                <i className="icon">
-                  <BsTwitter />
-                </i>
-              </a>
-              <a
-                href="https://api.whatsapp.com/message/6OQ76QHM5GHZA1?autoload=1&app_absent=0"
-                rem
-                target="_blank"
-                className="icon-circle"
-              >
-                <i className="icon">
-                  <AiOutlineWhatsApp />
-                </i>
-              </a>
-            </div>
-            <div className="contact-info-nav">
-              <h1>
-                {" "}
-                <i>
-                  <GrContactInfo />
-                </i>{" "}
-                Contact Info -
-              </h1>
-              <p>
-                <i>
-                  {" "}
-                  <AiOutlineWhatsApp />
-                </i>{" "}
-                India - +91 9866553616
-              </p>
-              <p>
-                {" "}
-                <i>
-                  {" "}
-                  <AiOutlineWhatsApp />
-                </i>{" "}
-                Saudi - +966 564499994
-              </p>
-              <p>
-                <i>
-                  <FaPhoneAlt />
-                </i>
-                Saudi - +966 569500015
-              </p>
-            </div>
-          </div>
-        </Offcanvas.Body>
-      </Offcanvas>
-    </div>
+                <NavLink to="/">
+                  <Nav.Link href="#action1">Home</Nav.Link>
+                </NavLink>
+                <NavLink to="/About">
+                  <Nav.Link href="#action1">About</Nav.Link>
+                </NavLink>
+                <NavLink to="/services">
+                  <Nav.Link href="#action1">Services</Nav.Link>
+                </NavLink>
+                <NavDropdown title="Plan Your Studies" id="Plan Your Studies">
+                  <NavLink to="/USA">
+                    <NavDropdown.Item href="#action3">
+                      Study In USA
+                    </NavDropdown.Item>
+                  </NavLink>
+                  <NavLink to="/UK">
+                    <NavDropdown.Item href="#action3">
+                      Study In UK
+                    </NavDropdown.Item>
+                  </NavLink>
+
+                  <NavLink to="/Canada">
+                    <NavDropdown.Item href="#action3">
+                      Study In Canada
+                    </NavDropdown.Item>
+                  </NavLink>
+                  <NavLink to="/Europe">
+                    <NavDropdown.Item href="#action3">
+                      Study In Europe
+                    </NavDropdown.Item>
+                  </NavLink>
+                  <NavLink to="/Australia">
+                    <NavDropdown.Item href="#action3">
+                      Study In Australia
+                    </NavDropdown.Item>
+                  </NavLink>
+                </NavDropdown>
+                <NavLink to="/students">
+                  <Nav.Link href="#action1">International Students</Nav.Link>
+                </NavLink>
+                <NavLink to="/ApplyNow">
+                  <Nav.Link className="register-yourslef-btn" href="#action1">
+                    Register Yourself
+                  </Nav.Link>
+                </NavLink>
+              </Nav>
+            </Navbar.Collapse>
+          </Container>
+        </Navbar>
+      </div>
+    </>
   );
 };
 

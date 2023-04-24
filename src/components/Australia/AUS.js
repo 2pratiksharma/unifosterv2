@@ -4,14 +4,14 @@ import AUSImg from "../../assets/wallAUS.jpg";
 import img from "../../assets/imgAus.jpg";
 import img2 from "../../assets/imgAus2.jpg";
 import NavBar from "../Nav/Nav";
-import Logoanim from "../Nav/Logoanim";
+import ScrollBtn from "../button/ScrollBtn";
 import Footer from "../Footer/Footer";
 
 const AUS = () => {
   return (
     <>
       <NavBar />
-      <Logoanim />
+      <ScrollBtn />
       <div className="AUSBG-container">
         <img src={AUSImg} />
         <div className="AUSBG-text">
@@ -23,7 +23,7 @@ const AUS = () => {
       <div className="AUS-main-container">
         <div className="AUS-title1">
           <h2>
-            STUDY IN <b>Australia</b>{" "}
+            Study In <b>Australia</b>{" "}
           </h2>
         </div>
         <div className="AUS-text1">

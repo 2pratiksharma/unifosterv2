@@ -86,46 +86,48 @@ const Why = () => {
   }, []);
 
   return (
-    <div>
-      <div className="why-container">
-        <div className="why-left">
-          <h2 className="why-heading">Why Choose Us?</h2>
-          <p className="why-text">
-            We understand the challenges of studying in a foreign country and
-            are here to help you overcome any obstacles that may arise. Our team
-            is knowledgeable about the visa application process, housing
-            options, and cultural adjustments, and we are dedicated to ensuring
-            that our clients have a smooth and successful study abroad
-            experience. Trust us to guide you towards achieving your academic
-            goals and making the most of this unique opportunity.
-          </p>
-          <button className="why-button">Read More</button>
+    <>
+      <div>
+        <div className="why-container">
+          <div className="why-left">
+            <h2 className="why-heading">Why Choose Us?</h2>
+            <p className="why-text">
+              We understand the challenges of studying in a foreign country and
+              are here to help you overcome any obstacles that may arise. Our
+              team is knowledgeable about the visa application process, housing
+              options, and cultural adjustments, and we are dedicated to
+              ensuring that our clients have a smooth and successful study
+              abroad experience. Trust us to guide you towards achieving your
+              academic goals and making the most of this unique opportunity.
+            </p>
+            <button className="why-button">Read More</button>
+          </div>
+          <motion.div
+            ref={ref}
+            initial={false}
+            animate={
+              isInView
+                ? { WebkitMaskImage: visibleMask, maskImage: visibleMask }
+                : { WebkitMaskImage: hiddenMask, maskImage: hiddenMask }
+            }
+            transition={{ duration: 1, delay: 0.6 }}
+            viewport={{ once: true }}
+            onViewportEnter={() => {
+              setIsInView(true);
+            }}
+            className="why-right"
+          >
+            <motion.img src={budget} alt="placeholder" className="why-img" />
+            <h1>Student budget understanding</h1>
+            <p className="why-text">
+              We offer personalized budgeting assistance to help you make the
+              most of your study abroad experience without breaking the bank.
+            </p>
+          </motion.div>
         </div>
-        <motion.div
-          ref={ref}
-          initial={false}
-          animate={
-            isInView
-              ? { WebkitMaskImage: visibleMask, maskImage: visibleMask }
-              : { WebkitMaskImage: hiddenMask, maskImage: hiddenMask }
-          }
-          transition={{ duration: 1, delay: 0.6 }}
-          viewport={{ once: true }}
-          onViewportEnter={() => {
-            setIsInView(true);
-          }}
-          className="why-right"
-        >
-          <motion.img src={budget} alt="placeholder" className="why-img" />
-          <h1>Student budget understanding</h1>
-          <p className="why-text">
-            We offer personalized budgeting assistance to help you make the most
-            of your study abroad experience without breaking the bank.
-          </p>
-        </motion.div>
       </div>
       <ComponentPoints />
-    </div>
+    </>
   );
 };
 

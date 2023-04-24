@@ -1,0 +1,26 @@
+.scroll-btn {
+    position: fixed;
+    bottom: 2rem;
+    left: 2rem;
+    display: none;
+    background-color: rgba(51,51,51,0.8);
+    color: #fff;
+    padding: 1rem;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: opacity 0.3s ease-in-out;
+  
+    &.show {
+      display: block;
+    }
+  
+    &:hover {
+      opacity: 0.8;
+    }
+  
+    svg {
+      width: 1.7rem;
+      height: 1.7rem;
+    }
+  }
+  
