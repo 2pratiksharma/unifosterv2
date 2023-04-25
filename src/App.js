@@ -10,10 +10,11 @@ import EUR from "./components/Europe/EUR";
 import CAN from "./components/Canada/CAN";
 import WhatsApp from "./components/popups/WhatsApp";
 import RegisterYourself from "./components/form/RegisterYourself";
+import css from "./styles/app.module.scss";
 
 function App() {
   return (
-    <div className="App">
+    <div className={css.container}>
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />

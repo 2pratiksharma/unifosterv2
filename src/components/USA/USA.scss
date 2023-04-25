@@ -2,8 +2,11 @@
     height: 70vh;
     width: 100%;
     object-fit: cover;
+
     @media (max-width:768px) {
         height: 50vh;
+        max-width: 500px;
+       
     }
     img{
 height: 100%;
@@ -20,7 +23,7 @@ border-bottom-right-radius: 100px;
     @media (max-width:768px) {
         position: relative;
         top: -15%;
-        left: 10%;
+        left: 0%;
     }
         h1{
             font-size: 3.5rem;
@@ -62,10 +65,11 @@ border-bottom-right-radius: 100px;
     
         width: 70%;
         
+        
     @media (max-width:768px) {
      width: 100%;
      padding: 0 18px;
-     text-align: left;   
+     text-align: center;   
     }
         
     p{
@@ -93,7 +97,7 @@ border-bottom-right-radius: 100px;
     
     @media (max-width:768px) {
      display: block;   
-     padding: 0%;
+     padding: 0 20px;
     }
     .block2-colum1{
         
@@ -175,12 +179,14 @@ border-bottom-right-radius: 100px;
                   
     @media (max-width:768px) {
        width: 100%;
+       text-align: center;
        }
         h1{
           margin-bottom: 20px;
           border-bottom: 4px solid #7800ff;
           @media (max-width:768px) {
             text-align: center;
+            margin: 0 auto;
             }
        
         }
@@ -218,6 +224,8 @@ border-bottom-right-radius: 100px;
     border-bottom: #7800ff solid 2px;
     @media (max-width:768px) {
         display: block;
+        width: 100%;
+        margin: 0 auto;
          }
     .USA-block4-img{
         width: 50%;
@@ -226,6 +234,7 @@ border-bottom-right-radius: 100px;
         margin-bottom: 60px;
         @media (max-width:768px) {
             width: 100%;
+            
             }
         img{
             width: 100%;
@@ -243,6 +252,8 @@ border-bottom-right-radius: 100px;
         margin-left: 20px;
         @media (max-width:768px) {
             width: 100%;
+            text-align: center;
+            margin: 0%;
             }
         h1{
           margin-bottom: 20px;

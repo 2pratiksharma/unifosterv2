@@ -4,6 +4,7 @@
     object-fit: cover;
     @media (max-width:768px) {
         height: 50vh;
+          max-width: 500px;
     }
     img{
 height: 100%;
@@ -20,7 +21,7 @@ border-bottom-right-radius: 100px;
     @media (max-width:768px) {
         position: relative;
         top: -15%;
-        left: 10%;
+        left: 0;
     }
         h1{
             font-size: 3.5rem;
@@ -65,7 +66,7 @@ border-bottom-right-radius: 100px;
     @media (max-width:768px) {
      width: 100%;
      padding: 0 18px;
-     text-align: left;   
+     text-align: center;   
     }
         
     p{
@@ -93,7 +94,7 @@ border-bottom-right-radius: 100px;
     
     @media (max-width:768px) {
      display: block;   
-     padding: 0%;
+     padding: 0 20px;
     }
     .AUS-block2-colum1{
         

@@ -46,7 +46,6 @@ const RegisterYourself = () => {
 
   return (
     <>
-      <Logoanim />
       <NavBar />
       <div className="wrapperA">
         <div className="form-container">

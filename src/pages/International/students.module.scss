@@ -4,8 +4,14 @@
     justify-content: center;
   
     border-bottom: 3px solid #7800ff;
-    border-top-left-radius: 100px;
-    border-top-right-radius: 100px;
+   
+    @media (max-width:768px) {
+      margin-top: 50x;
+      display: flex;
+      width: 100%;
+    
+      
+    }
   }
   
   .videoContainer {
@@ -14,8 +20,13 @@
     align-items: center;
     width: 50%;
     padding: 50px;
-    object-fit: cover;
- 
+  
+
+  @media (max-width:768px) {
+  
+width: 100%;
+
+  }
  
   }
   
@@ -74,6 +85,9 @@
     align-items: center;
     width: 50%;
     padding: 50px;
+    @media (max-width:768px) {
+      width: auto;
+    }
   }
   
   .rightText {
@@ -84,76 +98,6 @@
     }
   }
   
-  .contentContainer {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    padding: 50px;
-    background-color: #fff;
-  }
-  
-  .text {
-    width: 50%;
-    padding-right: 50px;
-  }
-  
-  .text p {
-    font-size: 1.3rem;
-    line-height: 1.5;
-  }
-  
-  .text ul {
-    font-size: 1.3rem;
-    font-weight: 300;
-    padding: 0;
-    color: #7800ff;
-   
-   
-  }
-  
-  .text li {
-    margin-bottom: 10px;
-    margin-top: 10px;
-    color: black;
-  }
-  
-  .image {
-    width: 50%;
-    height: 200px;
-
-  }
-  
-  @media (max-width: 768px) {
-    .container {
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    .videoContainer {
-      width: 100%;
-      padding: 20px;
-    
-    
-    }
-    
-    .rightContainer {
-      width: 100%;
-      padding: 20px;
-       
-    }
-  
-    .text {
-      width: 100%;
-      padding-right: 0;
-    
-      
-    }
-  
-    .image {
-      display: none;
-    }
-  
-  }
 
   //Article
 
@@ -165,6 +109,10 @@
     
     width: 100%;
     margin: 0%;
+    @media (max-width:768px) {
+      padding: 0 20px;
+      
+    }
  
 
     .manInfoDetails{

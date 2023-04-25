@@ -23,7 +23,7 @@ const UK = () => {
       <div className="UK-main-container">
         <div className="UK-title1">
           <h2>
-            STUDY IN <b>UK</b>{" "}
+            Study In <b>UK</b>{" "}
           </h2>
         </div>
         <div className="UK-text1">

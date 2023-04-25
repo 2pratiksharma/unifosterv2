@@ -11,6 +11,7 @@ import VideoBG from "./VideoBG";
 import StudentInfo from "./StudentInfo";
 import NavBar from "../../components/Nav/Nav";
 import ScrollBtn from "../../components/button/ScrollBtn";
+import { NavLink } from "react-router-dom";
 
 const InternationalStudents = () => {
   const [playing, setPlaying] = useState(false);
@@ -43,7 +44,9 @@ const InternationalStudents = () => {
               you want to study a specific subject, learn a new language, or
               explore a new culture. Fill out the form below to get started
             </p>
-            <button className={styles.manbtn}>Apply Now</button>
+            <NavLink to="/ApplyNow">
+              <button className={styles.manbtn}>Apply Now</button>
+            </NavLink>
           </div>
         </div>
 
