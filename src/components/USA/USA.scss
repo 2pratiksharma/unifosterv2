@@ -89,7 +89,7 @@ border-bottom-right-radius: 100px;
 //block 2 
 .block2{
     display: flex;
-    width: 100;
+    width: 100%;
     margin: 0 auto;
     justify-content: space-between;
     flex-direction: row;
@@ -128,9 +128,10 @@ border-bottom-right-radius: 100px;
             width: 550px;
             
     @media (max-width:768px) {
-     max-width: 450px;
-     margin: 10px auto;  
+     max-width: 350px;
+     margin: 0 auto;  
      font-size: 1rem; 
+     padding: 0px 15px;
     }
         }
         
@@ -148,11 +149,13 @@ border-bottom-right-radius: 100px;
         p{
             width: 550px; 
                       
-    @media (max-width:768px) {
-        max-width: 450px;
-        margin: 10px auto;  
-        font-size: 1rem; 
-       }
+            
+            @media (max-width:768px) {
+                max-width: 350px;
+                margin: 0 auto;  
+                font-size: 1rem; 
+                padding: 0px 15px;
+               }
         }
     }
 
