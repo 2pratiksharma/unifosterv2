@@ -64,7 +64,7 @@ const NavBar = () => {
             <p className="number">+966 564499994</p>
             <p className="location">Saudi</p>
           </div>
-          <div className="contact-number">
+          <div className="contact-number-last">
             <p className="number">+966 569500015</p>
             <p className="location">Saudi</p>
           </div>

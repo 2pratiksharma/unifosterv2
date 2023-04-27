@@ -8,6 +8,7 @@ import deal from "../../assets/deal.png";
 import graduate from "../../assets/graduate.png";
 import employee from "../../assets/employee.png";
 import { motion } from "framer-motion";
+import { NavLink } from "react-router-dom";
 
 const Why = () => {
   const points = [
@@ -100,7 +101,9 @@ const Why = () => {
               abroad experience. Trust us to guide you towards achieving your
               academic goals and making the most of this unique opportunity.
             </p>
-            <button className="why-button">Read More</button>
+            <button className="why-button">
+              <NavLink to="/About">Read More </NavLink>
+            </button>
           </div>
           <motion.div
             ref={ref}

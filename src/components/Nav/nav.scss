@@ -7,7 +7,8 @@
 .contact-info-container {
   display: flex;
   justify-content: space-between;
-  background-color: #a5a3a3;
+  background-color: #7800ff;
+  color: aliceblue;
   width: 100%;
 
   .social-icons-container {
@@ -23,7 +24,7 @@
       
     }
     i{
-      color: #7800ff;
+      color: aliceblue;
     }
   }
 
@@ -65,7 +66,7 @@
 
       .location {
         font-size: 0.8rem;
-        color: gray;
+        color: whitesmoke;
       }
     }
   }
@@ -89,3 +90,27 @@ text-decoration: none;
 }
 
 
+
+    .contact-number-last {
+      display: flex;
+      flex-direction: column;
+     
+   padding-right: 1%;
+   padding-top: 1% ;
+      width: auto;
+      
+     
+    
+      gap: 5px;
+    
+      .number {
+        font-weight: bold;
+        margin: 0%;
+      
+      }
+
+      .location {
+        font-size: 0.8rem;
+        color: whitesmoke;
+      }
+    }

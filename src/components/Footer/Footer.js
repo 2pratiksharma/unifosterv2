@@ -122,7 +122,13 @@ const Footer = () => {
         </footer>
         <div className="footer-credits">
           Unifoster © 2023 - All Rights Reserved | Designed & Developed by
-          Pratik sharma
+          <a
+            href="https://www.linkedin.com/in/pratik-sharma-41a7a1213/"
+            target="blank"
+          >
+            {" "}
+            Pratik sharma
+          </a>
         </div>
       </div>
     </>

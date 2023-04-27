@@ -36,6 +36,10 @@
     cursor: pointer;
     margin-top: 20px;
     transition: transform 0.3s ease;
+    a{
+      text-decoration: none;
+      color: #ddd;
+    }
     &:hover{
         transform: scale(1.1);
     }
