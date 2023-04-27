@@ -224,7 +224,7 @@ border-bottom-right-radius: 100px;
     height: 100%;
     margin-top: 20px;
     
-    border-bottom: #7800ff solid 2px;
+
     @media (max-width:768px) {
         display: block;
         width: 100%;
@@ -268,4 +268,17 @@ border-bottom-right-radius: 100px;
         }
     }
    
+}
+.block5{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    padding: 0px;
+    border-bottom: 2px solid #7800ff;
+    ul{
+        text-align: left;
+    }
+    h1,b{
+        color: #7800ff;
+    }
 }

@@ -120,6 +120,105 @@ const AUS = () => {
             </p>
           </div>
         </div>
+        {/** block 5 */}
+        <div className="AUS-block5">
+          <div>
+            <h1> Basic Pre Requisites For Bachelor’s</h1>
+            <ul>
+              <li>
+                APPLICATION FEE: - Most universities will require application to
+                apply to their courses.
+              </li>
+              <li>
+                {" "}
+                ACADEMIC TRANSCRIPT: - You will need High School Leaving Exam
+                (HSLE) to apply to a Bachelor degree program.
+              </li>
+              <li>
+                ENGLISH TEST RESULTS: - Internationally recognized English
+                language test that proves you’re proficient enough to study in
+                Australia
+              </li>
+
+              <li>FURTHER REQUIREMENTS: - LOR, SOP, CV etc.…</li>
+            </ul>
+          </div>
+          <div>
+            <h1> Basic Pre Requisites For Master’s</h1>
+            <ul>
+              <li>
+                APPLICATION FEE: - Most universities will require application to
+                apply to their courses.
+              </li>
+              <li>
+                ACADEMIC TRANSCRIPT: - You will need to present Secondary School
+                Certificate (GRADE 10)
+              </li>
+              <li>
+                High School Certificate (GRADE 12) and Bachelor Marks and Grades
+                to apply in Master’s degree program.
+              </li>
+              <li>
+                ENGLISH TEST RESULTS: - Internationally recognized English
+                language test that proves you’re proficient enough to study in
+                Australia.
+              </li>
+              <li>
+                ENTRANCE EXAM RESULTS: - You may have to go through some
+                university competitive exams! Whereas, some universities courses
+                like MBA might need students to undergo an entrance exam like
+                GMAT, GAMSAT, LSAT etc.…
+              </li>
+              <li>
+                INTERVIEWS: - Interviews could be conducted by some universities
+                in order to check the communication skills, professionalism and
+                reasons for those specific courses.
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h1> Basic Pre Requisites For PHD</h1>
+            <ul>
+              <li>
+                A Bachelor’s and a Master’s degree in the relevant field of
+                study
+              </li>
+              <li>
+                Evidence of your prior research experience certified from your
+                previous university or universities
+              </li>
+              <li>
+                Might go through an interview for getting into doctorate
+                degrees.{" "}
+              </li>
+              <li>Proof of you English Proficiency Exam.</li>
+            </ul>
+            <p>
+              General guide for the English proficiency scores that you need to
+              provide for your Undergraduate, Bachelor’s and PHD program.
+            </p>
+            <ul>
+              <li>
+                {" "}
+                IELTS: - You will need to score an overall of 6.5, no band less
+                than 6.0
+              </li>
+              <li>
+                TOEFL:- You will need to score an overall of 79 with individual
+                section scores no less than (Listening:19, Speaking: 19,
+                Reading: 18, Writing: 22).
+              </li>
+              <li>
+                PTE: - You will need to score an overall of 58-64 with no
+                section score less than 50.
+              </li>
+              <li>
+                CAE: - You will need to score an overall of 176 with no
+                individual band less than 169.
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
       <Footer />
     </>

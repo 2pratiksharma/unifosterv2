@@ -117,6 +117,27 @@ const CAN = () => {
             </p>
           </div>
         </div>
+        <div className="CAN-block5">
+          <h1>Basic Pre Requisites For All Courses</h1>
+          <ul>
+            <ul>
+              <li>A letter of explanation/personal statement</li>
+              <li>
+                Proof that you can financially support yourself and any
+                dependents you plan to bring with you to Canada
+              </li>
+              <li>Official academic transcripts</li>
+
+              <li> English language proficiency tests like IELTS, or TOEFL.</li>
+              <li>
+                {" "}
+                A study permit if the course or program is longer than 6 months.
+              </li>
+              <li>Personal statement or (statement of purpose)</li>
+              <li> Letters of recommendation</li>
+            </ul>
+          </ul>
+        </div>
       </div>
       <Footer />
     </>

@@ -119,6 +119,61 @@ const USA = () => {
             </p>
           </div>
         </div>
+        {/** block 5 */}
+        <div className="block5">
+          <div>
+            <h1> Basic Pre Requisites For Bachelor’s and Master Courses</h1>
+            <ul>
+              <li>Completed Online Application</li>
+              <li>Transcripts</li>
+              <li>
+                For undergraduate admissions: Copies of High School Transcripts
+                (must be in English)
+              </li>
+              <li>
+                For graduate admissions: Undergraduate Transcripts (official or
+                officially notarized copy)
+              </li>
+              <li>
+                international students need a passport, undocumented students
+                need proof of residency
+              </li>
+              <li>
+                Letters of Recommendation (2 letters from former teachers,
+                employers, coaches, etc.)
+              </li>
+              <li>Personal Essay (for details, please direct here)</li>
+              <li>
+                Bank Statement (as proof of adequate financial resources, for
+                more information, please refer here)
+              </li>
+              <li>
+                Proof of English Language Proficiency (i.e IELTS, TOEFL, TOEIC,,
+                BAU Placement Test)
+              </li>
+              <li>Application fee</li>
+            </ul>
+          </div>
+          <div>
+            <h1>PHD Students</h1>
+            <ul>
+              <b>
+                PhD admission requirements in US vary based on the university
+                and the field of study. But in general, most universities in the
+                US require the below from international students applying for
+                PhD degree there
+              </b>
+              <li> Completed application form</li>
+              <li>Resume</li>
+              <li>Transcripts for your university degree or courses</li>
+              <li> Statement of Purpose</li>
+              <li>GMAT or GRE scores</li>
+              <li>Recommendation letters</li>
+              <li>English language test, such as IELTS or TOEFl</li>
+              <li>Application fee</li>
+            </ul>
+          </div>
+        </div>
       </div>
       <Footer />
     </>

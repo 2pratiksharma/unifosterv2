@@ -130,6 +130,7 @@ const EUR = () => {
             <img src={img} />
           </div>
         </div>
+        {/** block 4 */}
 
         <div className="EUR-block4">
           <div className="EUR-block4-img">
@@ -172,6 +173,182 @@ const EUR = () => {
               for employment can apply for the extension in the residence permit
               for Finland.
             </p>
+          </div>
+        </div>
+        {/** block 5 */}
+
+        <div className="EUR-block5">
+          <div>
+            <h1>STUDY IN AUSTRIA</h1>
+            <p>
+              For such a small country, the excellence of Austria’s universities
+              is recognized worldwide. Many of them rank highly in international
+              university rankings, ensuring you of a good quality education
+              should you decide to study here. As well as that, the bonus for
+              students originating elsewhere in the European Union is that
+              tuition at any of the public universities is free. Even if you are
+              coming from a country outside the EU, the fees are very reasonable
+              and lower than many in the rest of Europe - with around 1,500 EUR
+              per year. The private universities can set their own rates which
+              can be considerably higher, but there is so much choice for
+              international students, you are sure to find one that suits your
+              budget and your educational aspiration. Many international
+              students have chosen to study in Austria for a Bachelors or
+              Master’s degree; on average, around 15% of the student body come
+              from abroad, ensuring a diverse and multicultural study
+              environment. Although the cost of living is moderate throughout
+              Austria, the standard of living is among the highest in Europe.{" "}
+            </p>
+          </div>
+          <div>
+            <h1>STUDY IN NETHERLAND</h1>
+            <p>
+              In Europe, the Netherlands was very early to adopt the
+              Bachelor/Master system and offer degree programs in English. This
+              has led to one of the largest selections of courses on the
+              continent. You can choose between plenty of Bachelor and Master
+              degrees at around 70 institutions of higher education. The tuition
+              fees for non-EU students vary from school to school and from
+              program to program. Bachelor’s program typically cost between
+              6,000 and 15,000 euros per year; Master’s program in Holland
+              usually cost between 8,000 and 20,000 euros per year. Some of the
+              world’s largest companies are Dutch, and many global groups have
+              their European headquarters in the Netherlands. Paired with the
+              country’s international mindset, you find a workforce that is
+              highly proficient in English and very welcoming towards foreign
+              employees. Those are pristine conditions for international
+              students. If you graduate with a Bachelor’s or Master’s degree
+              from a Dutch university, you will stand a good chance at also
+              finding a job and staying for a longer time.
+            </p>
+          </div>
+          <div>
+            <h1>STUDY IN GERMANY</h1>
+            <p>
+              Germany is one of the most industrialized countries in the world.
+              A global forerunner in industry and technology, Germany is a
+              highly developed country with an excellent standard of living and
+              a social market economy widely considered to be one of the most
+              efficient in the world. For two consecutive years, Germany has
+              been ranked the best place to study abroad in Europe and third in
+              the world. Combining high-quality education with a unique cultural
+              experience, living in Germany is the main reason why young people
+              from all around the world choose to study there. If that sounds
+              interesting to you, join more than four-hundred thousand other
+              students for the adventure of a lifetime in Germany! Generally,
+              you can study in Germany for free.. But there are a few exceptions
+              in which you have to pay tuition fees-
+              <ul>
+                <li>Only public universities are tuition-free.</li>
+                <li>
+                  Some federal states also expect tuition fees of 500 to 650 EUR
+                  per semester if you want to pursue a “secondary degree”
+                  (“Zweitstudium”).
+                </li>
+                <li>
+                  Non-consecutive study programs usually cost tuition fees.
+                </li>
+                <li>
+                  Public universities in the state of Baden-Württemberg can
+                  charge tuition fees from non-EU/EEA students.
+                </li>
+              </ul>
+              International graduates of German universities can stay in Germany
+              while they look for a job. And that applies to all students,
+              regardless of the country of origin. If you are a citizen from
+              outside the European Union, you can apply for an 18-month
+              residence permit for after graduation.
+            </p>
+          </div>
+          <div>
+            <h1>STUDY IN ITALY</h1>
+            <p>
+              These and many other universities in Italy are stepping up efforts
+              to accelerate their internationalization and offer degree programs
+              specifically for international students. There are currently more
+              than 500 English-taught study programs available in the country.
+              And every year, there are more and more options to study in Italy
+              in English. Italy is a budget-friendly study destination in
+              Europe. While the cost of accommodation and living can be high in
+              large cities like Rome or Milan, smaller cities are much cheaper.
+              Larger universities usually offer support in finding
+              accommodation; with luck you might get a place in a cheap student
+              home. Compared to other countries in Europe, Italy’s public
+              universities are also relatively cheap. On average, public
+              universities in Italy charge around 1,000 EUR per year. Top-ranked
+              prestigious universities might charge more. A special case is the
+              University of Rome Tor Vergata, where tuition fees are tied to
+              your family’s financial situation: Based on the income, you are
+              charged from a low minimum around 150 EUR to a maximum of around
+              5,000 EUR per year. Italians are known to be welcoming, open
+              people. You will make local friends quickly. And they will teach
+              you that eating out and enjoying high-quality, healthy food are
+              fundamental to la dolce vita (“the sweet life”) for every Italian.
+              Although you will get by with only a handful of words and phrases
+              in Italian, English is not widely spoken outside the academic
+              context, and you will definitely benefit from taking some lessons
+              in Italian before and during your stay. That is especially true if
+              you should decide to stay and work in Italy after graduation.
+              Cultural activities include everything from traditional local
+              festivals to major international sporting events. Italian night
+              life is always lively, especially in cities. In summer, the
+              majority of people head for the sea or countryside. For quality of
+              life, unforgettable, charming Italy provides value for any
+              student.
+            </p>
+          </div>
+        </div>
+        {/** block 6 */}
+
+        <div className="EUR-block6">
+          <div className="col1block6">
+            {" "}
+            <h1> Basic Pre Requisites for All Courses</h1>
+            <ul>
+              <li> Application Form</li>
+              <li>
+                Competitive Exam Scores - You might also be asked to take GRE/
+                GMAT exams
+              </li>
+              <li>
+                Academic Certificates - You need to send the academic
+                certificates in support of your educational qualifications. The
+                Academic Certificates according to the applied course
+              </li>
+              <li>Statement of Purpose </li>
+              <li>Letter of Recommendation </li>
+              <li>
+                Work Experience Certificates - If you are applying for any
+                Business Program you must have experience in the relevant field
+                to get admission to any Business School in Europe.{" "}
+              </li>
+              <li>Resume</li>
+              <li>Passport size Photographs</li>
+              <li></li>
+            </ul>
+          </div>
+          <div className="col2block6">
+            <b>
+              After receiving your admission application, the university will
+              verify the documents or profile and will send you the admission.
+              Once you have received the acceptance letter you can apply for the
+              Student Visa with the required documents. To apply for a student
+              visa, you will require the following documents:
+            </b>
+            <ul>
+              <li>Entry visa application form</li>
+              <li>Letter of acceptance from the European university </li>
+              <li>Recent passport size photographs</li>
+              <li>Valid travel documents</li>
+              <li>Proof of accommodation in Europe</li>
+              <li>
+                Proof that the student has enough financial support to survive
+                during your studies in Europe
+              </li>
+              <li>Paid health insurance</li>
+              <li>Copy of all previous educational certificates</li>
+              <li>Receipt of the visa application fees</li>
+            </ul>
           </div>
         </div>
       </div>

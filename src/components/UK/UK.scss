@@ -213,7 +213,6 @@ border-bottom-right-radius: 100px;
     height: 100%;
     margin-top: 20px;
     
-    border-bottom: #7800ff solid 2px;
     @media (max-width:768px) {
         display: block;
          }
@@ -252,4 +251,23 @@ border-bottom-right-radius: 100px;
         }
     }
    
+}
+
+.UK-block5{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+grid-gap: 10px;
+    padding: 0px;
+    border-bottom: 2px solid #7800ff;
+    @media (max-width:768px) {
+        display: block;
+        padding: 0 5px;
+        
+    }
+    h1{
+        text-align: left;
+    }
+    ul{
+        text-align: left;
+    }
 }

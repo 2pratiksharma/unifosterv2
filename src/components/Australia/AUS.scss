@@ -257,3 +257,21 @@ border-bottom-right-radius: 100px;
     }
    
 }
+.AUS-block5{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    padding: 20px;
+    border-bottom: 2px solid #7800ff;
+    @media (max-width:768px) {
+        display: block;
+        
+    }
+
+    ul{
+        text-align: left;
+    }
+    h1,b{
+        color: #7800ff;
+    }
+}

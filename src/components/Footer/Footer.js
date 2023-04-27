@@ -1,12 +1,6 @@
 import React from "react";
+import { FaPhone, FaEnvelope } from "react-icons/fa";
 import {
-  FaMapMarkerAlt,
-  FaPhone,
-  FaEnvelope,
-  FaSnapchat,
-} from "react-icons/fa";
-import {
-  TiSocialFacebookCircular,
   TiSocialTwitterCircular,
   TiSocialLinkedinCircular,
   TiSocialInstagramCircular,
@@ -36,12 +30,12 @@ const Footer = () => {
             <h3 className="footer__title">Office</h3>
             <p className="footer__address">
               {" "}
-              <HiOfficeBuilding className="footer-sub-icon" /> Telangana,
-              Karimnagar
-              <br />
+              <HiOfficeBuilding className="footer-sub-icon" />
               Aslami complex City center mezzanine
               <br />
-              floor C-16 and C-20, India
+              floor C-16 and C-20,
+              <br />
+              Telangana, Karimnagar
             </p>
           </div>
           <div className="footer__col3">

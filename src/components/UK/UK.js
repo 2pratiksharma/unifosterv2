@@ -103,6 +103,64 @@ const UK = () => {
             </p>
           </div>
         </div>
+
+        {/** block 5 */}
+        <div className="UK-block5">
+          <div className="UK-block5Col1">
+            <h1>Basic Pre Requisites For Bachelor’s </h1>
+            <ul>
+              <li>
+                Certificate for completing 10+2 education from a recognized
+                Indian broad with minimum marks.
+              </li>
+              <li>
+                {" "}
+                Original academic transcripts from previous academic
+                institutions.
+              </li>
+              <li> Statement of Purpose</li>
+
+              <li>Letters of Recommendations</li>
+              <li>Scores of English Proficiency Tests</li>
+              <li> Passport and other ID proof</li>
+              <li>Bank statements to provide proof for Financial Funds</li>
+              <li>Offer Letter</li>
+              <li> Student visa </li>
+            </ul>
+          </div>
+          <div className="UK-block5Col2">
+            <h1>Basic Pre Requisites For Master's </h1>
+            <ul>
+              <li> Official Academic transcripts</li>
+              <li> Two letters of Recommendations</li>
+              <li> Statement of Purpose</li>
+              <li>English Proficiency Tests</li>
+              <li>A detailed resume</li>
+              <li> Financial Statements</li>
+              <li>A valid passport</li>
+              <li>Offer Letter</li>
+              <li>Student Visa</li>
+            </ul>
+          </div>
+          <div className="UK-block5Col3">
+            <h1>Basic Pre Requisites For Master's </h1>
+            <ul>
+              <li>
+                A bachelors and master’s degree from a recognized university
+                with minimum marks in both programs.
+              </li>
+              <li> Official academic transcripts</li>
+              <li> Research Proposal</li>
+              <li> Statement of Purpose</li>
+              <li>English Proficiency Tests</li>
+              <li> A detailed CV</li>
+              <li>Financial statements</li>
+              <li> Valid Passport</li>
+              <li>Offer Letter</li>
+              <li>Student Visa</li>
+            </ul>
+          </div>
+        </div>
       </div>
       <Footer />
     </>
